@@ -1,0 +1,14 @@
+{
+    "name": "Fast Forward",
+    "action": {},
+    "manifest_version": 3,
+    "version": "0.1",
+    "description": "Fast forwards video Ads",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "service-worker.js"
+    }
+}
