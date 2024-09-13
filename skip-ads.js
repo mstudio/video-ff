@@ -11,7 +11,8 @@ window.ffIntId = setInterval(() => {
             const video = document.querySelector('video');
             // fast forward ad
             if (video) {
-                video.playbackRate = 16; 
+                video.playbackRate = 20; 
+                video.volume = 0;
                 fastForwarding = true;
                 clearTimeout(window.clearFFTimeoutId);
                 window.clearFFTimeoutId = setTimeout(() => {
