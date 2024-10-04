@@ -9,6 +9,14 @@ const handleKeydown = (event) => {
             if (video) {
                 console.log('found video with duration: ' + video.duration)
                 video.currentTime = video.duration;
+
+                // wait a moment, then click on the skip button
+                setTimeout(() => {
+                    const skipButton = document.querySelector('.ytp-ad-skip-button-modern');
+                    if (skipButton != null) {
+                        skipButton.click();
+                    }
+                }, 500);
             }
         }
     }
