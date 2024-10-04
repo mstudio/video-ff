@@ -14,5 +14,5 @@
 
 1. Go to "Setting > Extensions > Manage Extensions"
 2. Toggle "Developer mode" **ON** in the top right corner
-3. Load unpacked > Select rhw folder you downloaded in the steps above
+3. Load unpacked > Select the folder you downloaded in the steps above
 
