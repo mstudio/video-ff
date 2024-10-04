@@ -14,12 +14,6 @@ const handleKeydown = (event) => {
             }
         }
     }
-    if (event.key === '\\' || event.code === 'Backslash' || event.key === 's' || event.code === 'KeyS') {
-        const skipButton = document.querySelector('.ytp-ad-skip-button-modern');
-        if (skipButton != null) {
-            skipButton.click();
-        }
-    }
 }
 
 window.removeEventListener('keydown', handleKeydown);

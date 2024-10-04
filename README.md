@@ -2,7 +2,6 @@
 
 "Delete" video Ads! 
 - If a video Ad starts playing, press either the "Backspace" or "Delete" key to skip it.
-- If the "Skip" button appears, you can presse either the "\\" key (below the "Backspace" key) or the "s" key to skip.
 
 ## Installation
 
