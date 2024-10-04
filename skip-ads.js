@@ -1,24 +1,18 @@
-if (window.ffIntId) {
-    clearInterval(window.ffIntId);
-}
-
-let fastForwarding = false;
-
-window.ffIntId = setInterval(() => {
-    if (!fastForwarding){
+// fast forward ad to the end when Backspace or Delete is pressed
+const handleKeydown = (event) => {
+    if (event.key === 'Backspace' || event.key === 'Delete') {
         const ad = [...document.querySelectorAll('.ad-showing')][0];
         if (ad != null) {
+            console.log('found ad ', ad);
             const video = document.querySelector('video');
-            // fast forward ad
+
             if (video) {
-                video.playbackRate = 16; 
-                video.volume = 0;
-                fastForwarding = true;
-                clearTimeout(window.clearFFTimeoutId);
-                window.clearFFTimeoutId = setTimeout(() => {
-                    fastForwarding = false;
-                }, 5000);
+                console.log('found video with duration: ' + video.duration)
+                video.currentTime = video.duration;
             }
         }
     }
-}, 1000);
+}
+
+window.removeEventListener('keydown', handleKeydown);
+window.addEventListener('keydown', handleKeydown);
