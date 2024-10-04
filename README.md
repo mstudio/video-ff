@@ -12,7 +12,7 @@
 
 ### In Google Chrome:
 
-1. Go to "Setting > Extensions > Manage Extensions"
+1. Go to "Setting > Extensions > Manage Extensions" or just go to [chrome://extensions/](chrome://extensions/) in your browser
 2. Toggle "Developer mode" **ON** in the top right corner
 3. Load unpacked > Select the folder you downloaded in the steps above
 
