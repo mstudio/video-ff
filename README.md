@@ -1,16 +1,15 @@
 # Video Ad blocker Chrome Extension
 
-Skips the video ads. Runs continuously in the background for specified domain.
-If an ad is found, it mutes and fast-forwards the video to the end of the ad.
+"Delete" video Ads! If a video Ad starts playing, press either the "Backspace" or "Delete" key to skip it.
 
 ## Installation
 
-```
-Setting > Extensions > Manage Extensions
-```
+1. Click on the Green "<> Code" button
+2. Click "Download Zip" and wait for it to download on your computer.
+3. Double-click to open the zip file
 
-Toggle "Developer mode" **ON** in the top right corner.
+In Google Chrome:
+1. Go to "Setting > Extensions > Manage Extensions"
+2. Toggle "Developer mode" **ON** in the top right corner.
+3. Load unpacked > Select rhw folder you downloaded in the steps above
 
-```
- Load unpacked > Select this folder you downloaded
-```
