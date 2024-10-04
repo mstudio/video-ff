@@ -9,7 +9,15 @@ const handleKeydown = (event) => {
             if (video) {
                 console.log('found video with duration: ' + video.duration)
                 video.currentTime = video.duration;
+
+
             }
+        }
+    }
+    if (event.key === '\\' || event.code === 'Backslash' || event.key === 's' || event.code === 'KeyS') {
+        const skipButton = document.querySelector('.ytp-ad-skip-button-modern');
+        if (skipButton != null) {
+            skipButton.click();
         }
     }
 }
